@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# CineLog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CineLog is a modern movie search and tracking application that allows users to discover, rate, and manage their favorite movies. It fetches movie details from the OMDb API and provides an intuitive interface for users to add movies to their watchlist and rate them.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🔍 **Search for Movies**: Find movies instantly by entering a title.
+- 📄 **Detailed Information**: View essential movie details, including release date, runtime, IMDb rating, genre, director, and actors.
+- ⭐ **User Ratings**: Rate movies and keep track of personal ratings.
+- 🎬 **Watchlist**: Add movies to your watched list to keep track of what you've seen.
+- ⏳ **Loading Indicator**: A smooth loading animation while fetching movie details.
+- 🎨 **Modern UI**: Clean and responsive design for an enhanced user experience.
+- ⌨️ **Keyboard Shortcut**: Close movie details by pressing the `Escape` key.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js
+- **State Management**: useState, useEffect
+- **Styling**: CSS
+- **API**: OMDb API
+- **Deployment**: Render
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation & Setup
 
-### `npm test`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yashag24/CineLog.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd CineLog
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+- Search for a movie using the search bar.
+- Click on a movie to view details.
+- Rate movies and add them to your watched list.
+- Press the `←` button to go back or `Escape` to close the details view.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you find a bug or have an idea for improvement:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+For any questions or feedback, feel free to reach out:
+📧 agarwaly976@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+Enjoy using CineLog! 🎥🍿
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
