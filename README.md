@@ -14,7 +14,7 @@ CineLog is a sleek and user-friendly movie search application that allows you to
 - 🌙 **Dark Mode** – A stylish dark theme for a comfortable night-time experience.
 
 ## 🛠️ Tech Stack
-- 🎨 **Frontend** – ⚛️ React.js, ⚡ Vite, 🖌️ Tailwind CSS
+- 🎨 **Frontend** – ⚛️ React.js
 - 🔗 **Backend** – API-based fetching (OMDB API)
 - 🚀 **Deployment** – ▲ Vercel
 
